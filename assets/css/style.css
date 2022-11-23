@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.Sobre {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    width: 80vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+.textosobre {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+}
+
+.conteudosobre {
+    position: absolute;
+    top: 1vh;
+    left: 20vw;
+}
+
+h1 {
+    font-size: 60px;
+    
+}
+
+.menuLateral {
+    position: relative;
+    justify-content: center;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    height: 100vh;
+    width: 30vw;
+    text-align: center;
+}
+
+.listaLado {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+
+.testoconhecimentos {
+    position: absolute;
+    top: 35vh;
+    left: 45vw;
+}
+
+.textoobjetivo {
+    position: absolute;
+    top: 40vh;
+    left: 1.5vw;
+
+}
+
+li {
+    
+    list-style-type: none;
+    margin-top: 35%;
+    
+    }
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+li a:hover {
+    color: #156fc3;
+}
+
+#foto-perfil {
+
+    height: 120px;
+    width: 150px;
+    border-style:none;
+    border-radius: 45.8%;
+}
+
+.box-title {
+    width: 400px;
+    height: 37vh;
+    margin-top: 10px;
+    padding: 0 10px;
+    box-shadow: 0 0 20px 0 rgb(2, 128, 253);
+    border-radius: 20px;
+
+}
+
+.box-title span {
+
+    color: rgb(0, 0, 0);
+}
+
+.box-title .b1 {
+    width: 200px;
+    height: 10px;
+    background: rgb(16, 1, 1);
+    margin-top: 2px;
+    border-radius: 5px;
+
+}
+
+.box-title .b2 {
+    width: 100px;
+    height: 10px;
+    background: rgb(16, 1, 1);
+    margin-top: 2px;
+    border-radius: 5px;
+
+}
+
+.box-title .b3 {
+    width: 50px;
+    height: 10px;
+    background: rgb(16, 1, 1);
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.icons ion-icon {
+    width: 30%;
+    padding: 15px 0;
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.icons ion-icon:hover {
+    color: #156fc3;
+}
